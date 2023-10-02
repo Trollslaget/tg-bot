@@ -15,6 +15,7 @@ module.exports = {
 		reply_markup: JSON.stringify({
 			inline_keyboard: [
 				[
+					
 					{
 						text: "1",
 						callback_data: "1",
@@ -23,40 +24,204 @@ module.exports = {
 						text: "2",
 						callback_data: "2",
 					},
-					{
-						text: "3",
-						callback_data: "3 ",
-					},
+			
 				],
 				[
+					{
+						text: "3",
+						callback_data: "3",
+					},
 					{
 						text: "4",
 						callback_data: "4",
 					},
+				
+				],
+				[{
+					text: "Закончить игру",
+					callback_data: '5'
+				}]
+	
+			],
+		}),
+	},
+	gameOptions1: {
+		reply_markup: JSON.stringify({
+			inline_keyboard: [
+				[
 					{
-						text: "5",
-						callback_data: "5",
+						text: "9",
+						callback_data: "1",
 					},
 					{
-						text: "6",
-						callback_data: "6",
+						text: "2",
+						callback_data: "2",
 					},
+			
 				],
 				[
 					{
-						text: "7",
-						callback_data: "7",
+						text: "3",
+						callback_data: "3",
 					},
 					{
-						text: "8",
-						callback_data: "8",
+						text: "4",
+						callback_data: "4",
 					},
-					{
-						text: "9",
-						callback_data: "9",
-					},
+				
 				],
-				[{ text: "0", callback_data: "0" }],
+			
+	
+			],
+		}),
+	},
+	gameOptions2: {
+		reply_markup: JSON.stringify({
+			inline_keyboard: [
+				[
+					{
+						text: "1",
+						callback_data: "1",
+					},
+					{
+						text: "2",
+						callback_data: "2",
+					},
+			
+				],
+				[
+					{
+						text: "3",
+						callback_data: "3",
+					},
+					{
+						text: "4",
+						callback_data: "4",
+					},
+				
+				],
+			
+	
+			],
+		}),
+	},
+	gameOptions3: {
+		reply_markup: JSON.stringify({
+			inline_keyboard: [
+				[
+					{
+						text: "1",
+						callback_data: "1",
+					},
+					{
+						text: "2",
+						callback_data: "2",
+					},
+			
+				],
+				[
+					{
+						text: "3",
+						callback_data: "3",
+					},
+					{
+						text: "4",
+						callback_data: "4",
+					},
+				
+				],
+			
+	
+			],
+		}),
+	},
+	gameOptions4: {
+		reply_markup: JSON.stringify({
+			inline_keyboard: [
+				[
+					{
+						text: "1",
+						callback_data: "1",
+					},
+					{
+						text: "2",
+						callback_data: "2",
+					},
+			
+				],
+				[
+					{
+						text: "3",
+						callback_data: "3",
+					},
+					{
+						text: "4",
+						callback_data: "4",
+					},
+				
+				],
+			
+	
+			],
+		}),
+	},
+	gameOptions5: {
+		reply_markup: JSON.stringify({
+			inline_keyboard: [
+				[
+					{
+						text: "1",
+						callback_data: "1",
+					},
+					{
+						text: "2",
+						callback_data: "2",
+					},
+			
+				],
+				[
+					{
+						text: "3",
+						callback_data: "3",
+					},
+					{
+						text: "4",
+						callback_data: "4",
+					},
+				
+				],
+			
+	
+			],
+		}),
+	},
+	gameOptions6: {
+		reply_markup: JSON.stringify({
+			inline_keyboard: [
+				[
+					{
+						text: "1",
+						callback_data: "1",
+					},
+					{
+						text: "Заработная плата — вознаграждение за труд или участие в работе.",
+						callback_data: "Заработная плата — вознаграждение за труд или участие в работе.",
+					},
+			
+				],
+				[
+					{
+						text: "3",
+						callback_data: "3",
+					},
+					{
+						text: "4",
+						callback_data: "4",
+					},
+				
+				],
+			
+	
 			],
 		}),
 	},
